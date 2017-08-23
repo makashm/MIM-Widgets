@@ -20,6 +20,7 @@
  * @package    MIM Widgets
  * @author     Al Imran Akash
  */
+
 class mim_widget_class extends WP_Widget {
 	
 	public function __construct() {

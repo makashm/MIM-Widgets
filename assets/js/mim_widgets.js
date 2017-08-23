@@ -1,4 +1,4 @@
-(function($){
+$ = new jQuery.noConflict();
 
 	$(document).ready(function(){
 		$( 'button#mim_widgets_img_id' ).live( 'click', function(e){
@@ -21,5 +21,3 @@
 			} )
 		})
 	})
-
-}(jQuery))
